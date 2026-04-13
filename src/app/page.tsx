@@ -126,7 +126,7 @@ const juicesData: JuiceCardProps[] = [
 
 export default function Home() {
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen pb-20">
       {/* Navbar Minimalis */}
       <nav className="fixed w-full z-50 bg-white/80 backdrop-blur-md border-b border-orange-100 shadow-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -185,7 +185,7 @@ export default function Home() {
       </section>
 
       {/* Footer Minimalis WebPro Studio */}
-      <footer className="py-5 bg-[#E6E4DD] text-center border-t border-[#D9D6CB]">
+      <footer className="fixed bottom-0 w-full z-50 py-5 bg-[#E6E4DD] text-center border-t border-[#D9D6CB]">
         <p className="text-[13px] font-bold text-[#807D75] tracking-[0.15em] uppercase">
           Website by{" "}
           <a
